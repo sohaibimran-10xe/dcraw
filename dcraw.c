@@ -25,6 +25,13 @@
 
 #define DCRAW_VERSION "9.28"
 
+#define _CRT_SECURE_NO_WARNINGS
+#pragma warning(disable:4146)
+#define NODEPS
+//#define getc_unlocked _fgetc_nolock
+//#define fseeko _fseeki64
+//#define ftello _ftelli64
+
 #ifndef _GNU_SOURCE
 #define _GNU_SOURCE
 #endif
