@@ -14,8 +14,9 @@ The purpose of this repo is to allow users to debug dcraw library. Users can deb
 - For example:
   
       "args": ["-v", "-q", "0", "-w", "-W", "-T", "-o", "1", "YourInputImageName.dng"],
-- Be sure to place you input image in the same directory as dcraw or you can copy the complete path in place of the `YourInputImageName.dng`
+- Be sure to place your input image in the same directory as dcraw or you can copy the complete path in place of the `YourInputImageName.dng`
 
+![](vscodeWindowsDebug.png)
 
 
 Mirror of Dave Coffin's dcraw
