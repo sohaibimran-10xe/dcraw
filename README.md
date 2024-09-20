@@ -8,9 +8,9 @@ The purpose of this repo is to allow users to debug dcraw library using vscode. 
 
 - Open this repo in vscode.
 - Copy the `launch_<OS>.json` and `tasks_<OS>.json` file to the hidden `.vscode` folder based on your OS.
-- Rename each file to  `launch.json` and `tasks.json` i.e. by omitting the OS names with the original file name.
+- Rename each file to  `launch.json` and `tasks.json` i.e. by omitting the OS names from the original file name.
 - Go to launch.json find the `"args" :` parameter.
-- Replace the command with your the command of your choice.
+- Replace the command with the command of your choice.
 - For example:
   
       "args": ["-v", "-q", "0", "-w", "-W", "-T", "-o", "1", "YourInputImageName.dng"],
