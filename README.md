@@ -1,5 +1,5 @@
 ## Purpose
-The purpose of this repo is to allow users to debug dcraw library. Users can debug each step in processing their Raw image.
+The purpose of this repo is to allow users to debug dcraw library using vscode. Users can debug each step in processing their Raw image.
 
 - The repo has a folder named [VscodeConfigs](./VscodeConfigs)
 - This folder has configuration to debug the code for Mac, Windows (with mingw) or Linux.
