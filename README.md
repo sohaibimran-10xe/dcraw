@@ -1,3 +1,23 @@
+## Purpose
+The purpose of this repo is to allow users to debug dcraw library. Users can debug each step in processing their Raw image.
+
+- The repo has a folder named [VscodeConfigs](./VscodeConfigs)
+- This folder has configuration to debug the code for Mac, Windows (with mingw) or Linux.
+
+## How to Run For a Specific OS
+
+- Open this repo in vscode.
+- Copy the `launch_<OS>.json` and `tasks_<OS>.json` file to the hidden `.vscode` folder based on your OS.
+- Rename each file to  `launch.json` and `tasks.json` i.e. by omitting the OS names with the original file name.
+- Go to launch.json find the `"args" :` parameter.
+- Replace the command with your the command of your choice.
+- For example:
+  
+      "args": ["-v", "-q", "0", "-w", "-W", "-T", "-o", "1", "YourInputImageName.dng"],
+- Be sure to place you input image in the same directory as dcraw or you can copy the complete path in place of the `YourInputImageName.dng`
+
+
+
 Mirror of Dave Coffin's dcraw
 =============================
 
